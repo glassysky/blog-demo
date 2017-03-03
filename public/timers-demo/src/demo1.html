@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <div id="message" style="visibility: hidden">You can see me now!</div>
+    <button type="" id="my-btn">click me</button>
+  </div>
+</body>
+<script>
+  var btn = document.getElementById("my-btn");
+  btn.onclick = function() {
+    setTimeout(function(){
+      document.getElementById("message").style.visibility = 'visible';
+    }, 250);
+  }
+</script>
+</html>
