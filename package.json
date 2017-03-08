@@ -1,7 +1,7 @@
 {
   "name": "blog-demo",
   "version": "1.0.0",
-  "description": "Demo for my blog.(http://cthblog.cn)",
+  "description": "Demo for my [blog](http://cthblog.cn).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
